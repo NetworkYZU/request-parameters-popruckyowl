@@ -8,7 +8,13 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="process" method="POST">
+        <!--
+        lab1: 輸入不同的內容，觀察網址列的變化
+        lab2: method 改成 POST，會發生什麼事，怎麼修改到正常
+        lab3: 輸入中文試試看
+        lab4: 建立一個新的 servlet，怎麼改變 action 去對應？
+        -->
+        <form action="process" method="GET">
             name: <input type="text" name="username"></input>
             <input type="submit"/>
         </form>
